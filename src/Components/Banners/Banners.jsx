@@ -7,7 +7,7 @@ export default function Banners({ children, status}) {
     return (
         <div className={`banner ${status}`}>
             <div className="icon-container">
-                <img src={`../../../public/${status}.png`}/>
+                <img src={`../../../${status}.png`}/>
             </div>
             <section className="banner-text">
                 {children}
