@@ -18,7 +18,7 @@ export default function App() {
       <Cards icon={<DiAndroid />} color="blue"/>
 
       <Testimonials
-        img="../public/testImage.jpg"
+        img="../testImage.jpg"
         name="May Andersons"
         company="Workcation"
         title="CTO"
